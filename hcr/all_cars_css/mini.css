@@ -1,0 +1,76 @@
+#mini .sky
+{
+    background-image:url("../assets/backgrounds/sky-bg-mars_HD.png");
+    animation: trackmove linear 50s infinite;
+
+} 
+#mini .sk2
+{
+    background-image:url("../assets/backgrounds/bogland-day-parallax_HD.png");
+    animation: trackmove linear 500s infinite;
+} 
+#mini .track
+{
+    height:20%;
+    bottom:-8px;
+    left:0px;
+    background-image:url("../assets/roads/highway-ground.png");
+    animation: trackmove linear 150s infinite;
+}
+#mini .track2
+{
+        bottom:10px;
+        left:0px;
+        height:80px;
+        background-image: url("../assets/roads/highway-surface.png");
+        animation: trackmove linear 150s infinite;
+}
+#mini .cars
+{
+    height: 90px;
+    width: 189px;
+    background-image:url("../assets/cars/chassis-rallycar.png");
+    bottom: 80px;
+    left: 38%;
+    animation: carshake linear 5s infinite;
+}
+#mini .wheel1 img
+{
+    height: 52px;
+    top: 48px;
+    left: 12px;
+    animation: movingtire linear 5s infinite;
+}
+#mini .wheel2 img
+{
+    height: 52px;
+    top: 50px;
+    left: 127px;
+    animation: movingtire linear 5s infinite;
+}
+
+@keyframes minirun
+{
+    0%
+    {
+        transform:translate(0px,0px);
+    }
+
+    50%
+    {
+        transform:translate(50vw,15px);
+    }
+    75%
+    {
+        transform:translate(-100vw,0px);
+    }
+    90%
+    {
+        transform:translate(100vw,15px);
+    }
+    100%
+    {
+        transform:translate(0vw,0px);
+        
+    }
+}

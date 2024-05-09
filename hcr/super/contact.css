@@ -1,0 +1,35 @@
+#contact
+{
+    margin-top:100px;
+}
+#textarea-contact
+{
+width:500px;
+height:180px;
+color:rgb(45, 87, 255);
+border:var(--border-size) solid rgb(0, 42, 255);
+border-radius:10px;
+padding:10px;
+outline:none;
+font-size:var(--input-font-size); 
+
+}
+@media only screen and (max-width:1080px) and (orientation:portrait)
+{
+#contact
+{
+    margin-top:500px;
+}
+#textarea-contact
+   {
+    width:90vw;
+    height:500px;
+    margin-bottom:20px;
+    color:rgb(45, 87, 255);
+    border:var(--border-size) solid rgb(0, 42, 255);
+    border-radius:10px;
+    padding:10px;
+    outline:none;
+    font-size:var(--input-font-size); 
+    }
+}

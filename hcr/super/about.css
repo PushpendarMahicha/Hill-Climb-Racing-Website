@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.abouthcr{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.abouthillclimb{
+    font-size: 4.7rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 5rem 25px 4rem 25px;
+}
+.goodgames{
+    text-align: center;
+    font-size: 1.9rem;
+    color: rgb(53, 54, 56);
+    margin-bottom:4rem ;
+
+}
+.racingsince{
+    text-align: center;
+    font-size: 3.3rem;
+    font-weight: 800;
+    margin-bottom:4rem ;
+}
+.history{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+.history p{
+    color: rgb(64, 66, 67);
+    font-size: 1.3rem;
+    line-height: 1.3;
+    letter-spacing: 2px;
+    width: 400px;
+}
+.allmaps{
+    display: flex;
+    justify-content: space-evenly;
+}
+.allmaps h2{
+    margin-left: 10px;
+    font-weight: 700;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+
+}
+.allmaps p{
+    color: rgb(64, 66, 67);
+    font-size: 1.3rem;
+    width: 400px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.allmaps img{
+    width: 50vw;
+    height: 40vw;
+    object-fit: cover;
+}
+.allcars{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.allcars h2{
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+
+}
+.allcars p{
+    font-size: 1.3rem;
+    color: rgb(64, 66, 67);
+    width: 400px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.allcars img{
+    width: 50vw;
+    height: 40vw;
+    object-fit: cover;
+}
+.follow{
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    font-weight:bolder ; 
+}
+.iconcont{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    
+}
+
+
+.icons a{
+    border:2px solid #4CCD99;
+    padding: 1.3rem;
+    border-radius: 1rem;
+    color: #4CCD99;
+    margin: 0 10px;
+    transition: all linear .3s;
+
+} 
+.icons a:hover {
+    background-color: #4CCD99;
+    color: white;
+}
+.icons a:focus {
+    background-color: #4CCD99;
+}
+.icons i{
+    font-size: 1.4rem;
+}
+.footerlinks a{
+    font-size: .8rem;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: black;
+    margin: 0 8px;
+    transition: all linear .2s;
+} 
+.footerlinks a:hover{
+    color: #4CCD99;
+}
+.logos{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 3rem auto;
+}
+.Copyrights{
+    color: rgb(196, 196, 196);
+    text-align: center;
+    margin-bottom: 7rem;
+}
+@media (max-width:1000px){
+    .abouthillclimb{
+        font-size: 3.4rem;
+        font-weight: 800;
+        text-align: center;
+        margin: 4rem 10px 3rem 10px;
+    }
+    .goodgames{
+        text-align: center;
+        font-size: 1.4rem;
+        color: rgb(53, 54, 56);
+        margin-bottom:3rem ;
+    
+    }
+    .racingsince{
+        text-align: center;
+        font-size: 2.7rem;
+        font-weight: 800;
+        margin-bottom:3rem ;
+    }
+    .history{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 4rem;
+    }
+    .history p{
+        color: rgb(64, 66, 67);
+        font-size: 1.3rem;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        width: 300px;
+    }
+    .allmaps h2{
+        margin-left: 10px;
+        font-weight: 600;
+        margin-top: 1.4rem;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    
+    }
+    .allmaps p{
+        color: rgb(64, 66, 67);
+        font-size: 1.2rem;
+        width: 300px;
+        line-height: 1.2;
+        letter-spacing: 1.2px;
+    }
+    .allmaps img{
+        width: 50vw;
+        height: 40vw;
+        object-fit: cover;
+    }
+    .allcars{
+        margin-top: 5rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .allcars h2{
+        font-weight: 600;
+        margin-left: 10px;
+        margin-top: 2rem;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    
+    }
+    .allcars p{
+        font-size: 1.2rem;
+        color: rgb(64, 66, 67);
+        width: 300px;
+        line-height: 1.2;
+        letter-spacing: 1.2px;
+    }
+    .allcars img{
+        width: 50vw;
+        height: 40vw;
+        object-fit: cover;
+}
+@media (max-width:759px){
+    .abouthillclimb{
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 4rem 10px 2.5rem 10px;
+    }
+    .goodgames{
+        text-align: center;
+        font-size: 1.4rem;
+        color: rgb(53, 54, 56);
+        margin-bottom:2rem ;
+    
+    }
+    .racingsince{
+        text-align: center;
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin-bottom:2rem ;
+    }
+    .history{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 2.8rem;
+    }
+
+    .history p{
+        text-align: center;
+        color: rgb(64, 66, 67);
+        font-size: 1.5rem;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        width: 100vw;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .allmaps{
+        display: flex;
+        flex-direction: column;
+    }
+    .allmaps h2{
+        text-align: center;
+        margin-left: 10px;
+        font-weight: 600;
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+    
+    }
+    .allmaps p{
+        text-align: center;
+        color: rgb(64, 66, 67);
+        font-size: 1.5rem;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        width: 100vw;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    
+    }
+    .allmaps img{
+        width: 100vw;
+        height: 40vw;
+        object-fit: cover;
+    }
+    .allcars{
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .allcars h2{
+        text-align: center;
+        margin-left: 10px;
+        font-weight: 600;
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+    }
+    .allcars p{
+        text-align: center;
+        color: rgb(64, 66, 67);
+        font-size: 1.5rem;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        width: 100vw;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    
+    }
+    .allcars img{
+        width: 100vw;
+        height: 40vw;
+        object-fit: cover;
+} 
+}
+@media (max-width:564px){
+  
+ 
+   
+    .icons a{
+        border:2px solid #4CCD99;
+        padding: 1rem;
+        border-radius: 1rem;
+        color: #4CCD99;
+        margin: 0 5px;
+        transition: all linear .3s;
+    
+    } 
+    .icons i{
+        font-size: 20px;
+    }
+    .Copyrights{
+        color: rgb(196, 196, 196);
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .allmaps img{
+        width: 100vw;
+        height: 50vw;
+        object-fit: cover;
+    }
+    .allcars img{
+        width: 100vw;
+        height: 50vw;
+        object-fit: cover;
+    }
+}
+}

@@ -1,0 +1,50 @@
+/* speed */
+#speed .sky
+{
+    background-image:url("../assets/backgrounds/progrock-bg-sky.png");
+    animation: trackmove linear 53s infinite;
+}
+#speed .sk2
+{
+    background-image:url("../assets/backgrounds/progrock-bg.png");
+    animation: trackmove linear 53s infinite;
+}
+#speed .track
+{
+    bottom:-45px;
+    left:0px;
+    height:80px;
+    background-image: url("../assets/roads/terrain-progrock-alt.png");
+    animation: trackmove linear 13s infinite;
+}
+#speed .track2
+{
+    bottom:-15px;
+    left:0px;
+    height:80px;
+    background-image: url("../assets/roads/terrain-progrock-alt-surface.png");
+    animation: trackmove linear 13s infinite;
+}
+#speed .cars
+{
+    bottom: 80px;
+    left: 38%;
+    animation: carshake linear 1s infinite;
+    height: 80px;
+    width: 236px;
+    background-image:url("../assets/cars/speed.png");
+}
+#speed .wheel1 img
+{
+    height: 70px;
+    top: 33px;
+    left: 34px;
+    animation: movingtire linear .4s infinite;
+}
+#speed .wheel2 img
+{
+    height: 50px;
+    top: 52px;
+    left: 166px;
+    animation: movingtire linear .4s infinite;
+}

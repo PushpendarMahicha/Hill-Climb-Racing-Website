@@ -1,0 +1,49 @@
+#silver .sky
+{
+    background-image:url("../assets/backgrounds/sky-bg-synth.png");
+    animation: trackmove linear 100s infinite;
+}
+#silver .sk2
+{
+    background-image:url("../assets/backgrounds/synth-bg.png");
+    animation: trackmove linear 100s infinite;
+}
+#silver .track
+{
+    bottom:-45px;
+    left:0px;
+    height:80px;
+    background-image: url("../assets/roads/terrain-neon.png");
+    animation: trackmove linear 13s infinite;
+}
+#silver .track2
+{
+    bottom:-18px;
+    left:0px;
+    height:80px;
+    background-image: url("../assets/roads/terrain-neon-surface.png");
+    animation: trackmove linear 13s infinite;
+}
+#silver .cars
+{
+    bottom: 78px;
+    left: 38%;
+    animation: carshake linear 5s infinite;
+    height: 62px;
+    width: 178px;
+    background-image:url("../assets/cars/silver.png");
+}
+#silver .wheel1 img
+{
+    height: 65px;
+    top: 16px;
+    left: 1px;
+    animation: movingtire linear .5s infinite;
+}
+#silver .wheel2 img
+{
+    height: 50px;
+    top: 31px;
+    left: 126px;
+    animation: movingtire linear .5s infinite;
+}

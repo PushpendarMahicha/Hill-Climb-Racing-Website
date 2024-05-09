@@ -1,0 +1,38 @@
+/* pink */
+#pink .sky
+{
+    background-image:url("../assets/backgrounds/background-day.png");
+    animation: trackmove linear 53s infinite;
+}
+#pink .track
+{
+    bottom:-45px;
+    left:0px;
+    height:80px;
+    background-image: url("../assets/roads/base.png");
+    animation: trackmove linear 13s infinite;
+}
+#pink .cars
+{
+    bottom: 50px;
+    left: 38%;
+    animation: carshake linear 1s infinite;
+    height: 58px;
+    width: 149px;
+    background-image:url("../assets/cars/pink.png");
+    transform: ro;
+}
+#pink .wheel1 img
+{
+    height: 51px;
+    top: 25px;
+    left: 10px;
+    animation: movingtire linear .4s infinite;
+}
+#pink .wheel2 img
+{
+    height: 51px;
+    top: 25px;
+    left: 84px;
+    animation: movingtire linear .4s infinite;
+}

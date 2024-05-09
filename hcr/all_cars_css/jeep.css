@@ -1,0 +1,62 @@
+/* jeep */
+#jeep .sky
+{
+    background-image:url("../assets/backgrounds/background.jpg");
+    animation: trackmove linear 53s infinite;
+}
+#jeep .track
+{
+    bottom:0px;
+    left:0px;
+    height:80px;
+    background-image: url("../assets/roads/road.png");
+    animation: trackmove linear 13s infinite;
+}
+#jeep .cars
+{
+    bottom: 50px;
+    left: 38%;
+    animation: carshake linear 1s infinite;
+    height: 62px;
+    width: 149px;
+    background-image:url("../assets/cars/jeep.png");
+}
+#jeep .wheel1 img
+{
+    height: 37px;
+    top: 44px;
+    left: 102px;
+    animation: movingtire linear .4s infinite;
+}
+#jeep .wheel2 img
+{
+    height: 37px;
+    top: 44px;
+    left: 4px;
+    animation: movingtire linear .4s infinite;
+}
+
+@keyframes jeeprun
+{
+    0%
+    {
+        transform:translate(0px,0px);
+    }
+    10%
+    {
+        transform:translate(100vw,2px);
+    }
+    25%
+    {
+        transform:translate(50vw,2px);
+    }
+    50%
+    {
+        transform:translate(25vw,1px);
+    }
+    100%
+    {
+        transform:translate(0vw,0px);
+        
+    }
+}

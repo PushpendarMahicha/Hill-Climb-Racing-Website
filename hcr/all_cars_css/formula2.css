@@ -1,0 +1,46 @@
+/* formule 2 */
+#formula2 .sky
+{
+    background-image:url("../assets/background_decorations/jungle-bg.png");
+    animation: trackmove linear 53s infinite;
+}
+#formula2 .track
+{
+    bottom:-45px;
+    left:0px;
+    height:80px;
+    background-image: url("../assets/roads/terrain-bootcamp-outdoor.png");
+    animation: trackmove linear 13s infinite;
+}
+#formula2 .track2
+{
+    bottom:29px;
+    left:0px;
+    height:34px;
+    background-image: url("../assets/roads/terrain-beach-surface_HD.png");
+    animation: trackmove linear 13s infinite;
+}
+#formula2 .cars
+{
+    bottom: 40px;
+    left: 38%;
+    animation: carshake linear 1s infinite;
+    height: 59px;
+    width: 200px;
+    background-image:url("../assets/cars/formula2.png");
+    transform: ro;
+}
+#formula2 .wheel1 img
+{
+    height: 40px;
+    top: 22px;
+    left: 2px;
+    animation: movingtire linear .4s infinite;
+}
+#formula2 .wheel2 img
+{
+    height: 37px;
+    top: 28px;
+    left: 142px;
+    animation: movingtire linear .4s infinite;
+}

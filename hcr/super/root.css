@@ -1,0 +1,81 @@
+:root
+{
+    /* //all */
+    --body-background:rgb(211, 211, 211);
+    --div-background:rgb(191, 214, 223);
+    --font-color:rgb(0, 0, 0);
+    --border-size:2px;
+    --border-color:black;
+    --radius:50px;
+    --input-radius:100px;
+
+
+    /* //pc */
+    --btn-height:50px;    
+    --btn-width:200px;
+    --btn-font-size:20px;
+
+    --input-height:50px;
+    --input-width:400px;
+    --input-font-size:15px;
+
+    --txt-size-big:50px;
+    --txt-size-medium:30px;
+    --txt-size-small:15px;
+    
+    --margin-small:5px;
+    --margin-medium:8px;
+    --margin-big:10px;
+}
+*
+{
+    margin:0;
+    padding:0;
+}
+
+/* //mobile */
+@media only screen and (max-width:1080px) and (orientation:portrait)
+{
+    :root
+    {
+        /* all */
+        --border-size:5px;
+        --radius:100px;
+        --input-radius:500px;
+/* //mobile 1080*1920 */
+--btn-height:150px;
+--btn-width:500px;
+--btn-font-size:50px;
+
+--input-height:100px;
+--input-width:90vw;
+--input-font-size:40px;
+
+--txt-size-big:100px;
+--txt-size-medium:80px;
+--txt-size-small:50px;
+
+--margin-small:10px;
+--margin-medium:15px;
+--margin-big:20px;
+
+    }
+}
+
+/* --test tab 
+@media (max-width:1080px)
+{
+    :root
+    {
+ //tab 
+--btn-height:50px;
+--btn-width:250px;
+
+--input-height:100px;
+--input-width:800px;
+
+--txt-size-big:50px;
+--txt-size-medium:30px;
+--txt-size-small-:15px;
+     } 
+}  */

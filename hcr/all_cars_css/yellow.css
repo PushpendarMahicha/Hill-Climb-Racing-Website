@@ -1,0 +1,38 @@
+/* yellow */
+#yellow .sky
+{
+    background-image:url("../assets/backgrounds/bogland-day-sky_HD.png");
+    animation: trackmove linear 53s infinite;
+}
+#yellow .track
+{
+    bottom:-45px;
+    left:0px;
+    height:80px;
+    background-image: url("../assets/roads/terrain-cave-surface_HD.png");
+    animation: trackmove linear 13s infinite;
+}
+#yellow .cars
+{
+    bottom: 50px;
+    left: 38%;
+    animation: carshake linear 1s infinite;
+    height: 30px;
+    width: 149px;
+    background-image:url("../assets/cars/yellow.png");
+    transform: ro;
+}
+#yellow .wheel1 img
+{
+    height: 37px;
+    top: 17px;
+    left: 9px;
+    animation: movingtire linear .4s infinite;
+}
+#yellow .wheel2 img
+{
+    height: 37px;
+    top: 17px;
+    left: 96px;
+    animation: movingtire linear .4s infinite;
+}

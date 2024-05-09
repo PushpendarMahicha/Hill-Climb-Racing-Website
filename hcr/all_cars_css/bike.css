@@ -1,0 +1,84 @@
+/* bike css */
+#bike .sky
+{
+    background-image:url("../assets/backgrounds/sky-bg-mars_HD.png");
+    animation: trackmove linear 10s infinite;
+}
+#bike .sk2
+{
+    background-image:url("../assets/backgrounds/haunted-bg.png");
+    animation: trackmove linear 10s infinite;
+}
+#bike .track
+{
+    bottom:-21.5px;
+    left:0px;
+    height:80px;
+    background-image: url("../assets/roads/mars-ground.jpg");
+    animation: trackmove linear 1s infinite;
+}
+#bike .track2
+{
+    bottom:51px;
+    left:0px;
+    height:10px;
+    background-image: url("../assets/roads/terrain-mars-surface.png");
+    animation: trackmove linear 1s infinite;
+}
+#bike .cars
+{
+    bottom: 78px;
+    left: 38%;
+    animation: carshake linear .1s infinite;
+    height: 100px;
+    width: 200px;
+    background-image:url("../assets/cars/bike.png");
+}
+#bike .wheel1 img
+{
+    height: 58px;
+    top: 61px;
+    left: -5px;
+    animation: movingtire linear .1s infinite;
+}
+#bike .wheel2 img
+{
+    height: 58px;
+    top: 61px;
+    left: 158px;
+    animation: movingtire linear .1s infinite;
+}
+
+@keyframes bikerun
+{
+    0%
+    {
+        transform:translate(0px,0px);
+
+    }
+    5%
+    {
+        transform:translate(0px,2px);
+        rotate: -15deg;
+        bottom:93px;
+        
+    }
+    10%
+    {
+        transform:translate(0,2px); 
+        rotate: 0deg;
+        bottom:80px; 
+    } 
+    40%
+    {
+        transform:translate(100vw,1px);
+    }
+    75%
+    {
+        transform:translate(90vw,0px);
+    }
+    100%
+    {
+        transform:translate(0vw,0px);     
+    }
+}

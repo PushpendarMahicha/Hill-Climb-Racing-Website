@@ -1,0 +1,74 @@
+#formula .sky
+{
+    background-image:url("../assets/backgrounds/sky-bg-haunted.png");
+    animation: trackmove linear 50s infinite;
+
+} 
+#formula .sk2
+{
+    background-image:url("../assets/backgrounds/bogland-day-parallax_HD.png");
+    animation: trackmove linear 20s infinite;
+} 
+#formula .track
+{
+    height:20%;
+    bottom:-2px;
+    left:0px;
+    background-image:url("../assets/roads/terrain-haunted.png");
+    animation: trackmove linear 10s infinite;
+}
+#formula .track2
+{
+        bottom:10px;
+        left:0px;
+        height:80px;
+        background-image: url("../assets/roads/terrain-haunted-surface.png");
+        animation: trackmove linear 10s infinite;
+}
+#formula .cars
+{
+    height: 90px;
+    width: 189px;
+    background-image:url("../assets/cars/formula.png");
+    bottom: 80px;
+    left: 38%;
+    animation: carshake linear 1s infinite;
+}
+#formula .wheel1 img
+{
+    height: 45px;
+    top: 44px;
+    left: 7px;
+    animation: movingtire linear .1s infinite;
+}
+#formula .wheel2 img
+{
+    height: 40px;
+    top: 50px;
+    left: 125px;
+    animation: movingtire linear .1s infinite;
+}
+@keyframes formularun
+{
+    0%
+    {
+        transform:translate(0px,0px);
+    }
+    25%
+    {
+        transform:translate(10vw,2px);
+    }
+    50%
+    {
+        transform:translate(-190vw,1px);
+    }
+    75%
+    {
+        transform:translate(-100,0px);
+    }
+    100%
+    {
+        transform:translate(0vw,0px);
+        
+    }
+}
